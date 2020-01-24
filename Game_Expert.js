@@ -62,8 +62,8 @@ class Game_Expert extends Phaser.Scene {
             this.scene.stop('Game_Expert');
             this.scene.start('Start');
         });
-        var lvl = this.add.text((game.config.width * 0.2), 15, "SCHWER", {fontFamily: 'AhkioW05-Light', fontSize: '50px', fill: "#000000" });
-        lvl_label = "SCHWER";
+        var lvl = this.add.text((game.config.width * 0.2), 15, "EXPERTE", {fontFamily: 'AhkioW05-Light', fontSize: '50px', fill: "#000000" });
+        lvl_label = "EXPERTE";
         lvl.setDepth(1); 
         
         /**
